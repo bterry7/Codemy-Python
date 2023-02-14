@@ -1,0 +1,11 @@
+Use "#" for comments
+Use ''' to start a block comment and ''' to end it
+
+Data Types:
+Strings: text; can use "" or '' with little difference
+Numbers
+Lists: i.e. array; data types within do not have to be consistent. Can be nested. [] indexing, 0 indexed
+Tuples: a list you can't change; makes it a little faster. Emphasis for little for most applications. Use () instead of []; rest is the same
+Dictionaries: key value pairs seperated by; key and value seperated by :, each pair is seperated by a ,. Initialized using {} and are often multi-line
+    Call the key in [] and the value is returned
+Boolean
