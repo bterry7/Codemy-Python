@@ -40,8 +40,9 @@ print([1,2] < [1,3])
 ## Conditional Statements
 # if / else / elif
 # Python uses indenting to determine where the if statement starts and ends
-num = 5
+num = 15
 
+''' Basic If Statement
 if (num > 10):
     print(num, " is greater than 10")
     #print("%(num)d is greater than 10" % {"num": num})
@@ -49,3 +50,13 @@ elif(num == 10)
     print("Your number is 10")
 else:
     print(num, " is less than 10")
+'''
+
+## Multiple Conditions
+# Use Parentheses to group as needed
+# not() is negation
+if (num > 10) and (num >100):
+    print(num, "is greater than 10 and 100")
+
+if (num > 10) or (num > 100):
+    print(num, "is greater than 10 or greater than 100")
